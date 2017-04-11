@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\Patch.pubxml" />
     <None Include="web.config" />
   </ItemGroup>
   <PropertyGroup>
