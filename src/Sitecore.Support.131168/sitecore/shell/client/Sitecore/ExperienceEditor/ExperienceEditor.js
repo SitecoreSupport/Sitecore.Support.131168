@@ -674,7 +674,7 @@
           },
 
           encodeHtml: function (htmlSource) {
-              htmlSource = htmlSource.replace(/\\/g, '\\\\').replace(/\"/g, "\\\"");
+              htmlSource = htmlSource.replace(/\\/g, '\\\\').replace(/\"/g, "\\\"").replace(/&amp;/g, "&amp;amp;");
               var encodedHtml = encodeURIComponent(htmlSource);
               return encodedHtml;
 
